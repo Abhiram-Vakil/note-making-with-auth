@@ -1,8 +1,8 @@
 import express from "express";
 
 //
-import { connectDB } from "./cofig/connectDB.js";
-import { authRoutes } from "./routes/auth.route.js";
+import { connectDB } from "./config/connectDB.js";
+import authRoutes from "./routes/auth.route.js";
 //
 const app = express();
 
